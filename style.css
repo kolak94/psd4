@@ -323,6 +323,28 @@ body {
 	height: 450px;
 	width: 100%;
 }
+.link {
+	background-color: #0149a1;
+	margin-top: 450px;
+	text-align: center;
+}
+.link .linksPanel ul   {
+	text-decoration: none;
+	list-style-type: none;
+	padding-top: 60px;
+	
+}
+.link .linksPanel ul li a {
+	color: #fff;
+	font-size: 20px;
+}
+.link p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 80px;
+	
+}
 
 
 @media (max-width: 576px) {
@@ -345,6 +367,9 @@ body {
 }
 	.howWork {
 		text-align: center;
+}
+	.link .linksPanel ul li a {
+		font-size: 14px;
 }
 
 }
