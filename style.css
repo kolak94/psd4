@@ -345,6 +345,9 @@ body {
 	padding-top: 80px;
 	
 }
+.modal-dialog .modal-content {
+	text-align: center;
+}
 
 
 @media (max-width: 576px) {
